@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family:  'Montserrat', sans-serif;
+	font-weight: bold
+}
+
+nav{
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 75px;
+	background-color: rgba(0,0,0,0.6);
+}
+
+nav ul{
+	float: right;
+	margin-right: 115px;
+	margin-top: 28px;
+}
+
+nav ul li {
+	float: left;
+	list-style-type: none;
+	/* tirar as bolinhas */
+	font-size: 14px;
+	margin-right: 31px;
+	color: white;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	/*tirar sublinhado?*/
+}
+
+nav ul li a:hover{
+	/* quando o mouse passas por cima*/
+	color: #1db954;
+}
+
+header{
+	padding-top: 254px;
+	padding-left: 374px;
+	padding-bottom: 189px;
+	background-image: url("../img/bkg1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.logo{
+	width: 131px;
+	margin-left: 139px;
+	margin-top: 20px;
+}
+
+.slogan{
+	color: white;
+	font-size: 66px;
+	font-weight: bold;
+	/*negrito*/
+	margin-bottom: 50px;
+}
+
+.btn{
+	border-radius: 50px;
+	/* arredonda */
+	color: white;
+	height: 45px;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+.btn-verde{
+	background-color: #1db954;
+	width: 310px;
+}
+
+.btn-branco{
+	background-color: rgba(0,0,0,0);
+	border: 2px solid white;
+	width: 299px;
+	margin-left: 10px;
+}
+
+.btn-branco:hover{
+	background-color: white;
+	color: black;
+}
+
+.btn-verde:hover{
+	background-color: #1ed760;
+}
+
+.guia{
+	width: 100%;
+	opacity: 0.5;
+	z-index: -1;
+	position: absolute;
+}
+
+.section2{
+	padding-top: 50px;
+	padding-bottom: 50px
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.segunda-texto{
+	margin-top: 6px;
+	margin-left: 158px;
+	margin-bottom: 100px;
+	margin-right: 214px;
+	float: left;
+	width: 400PX;
+	height: 189PX;
+}
+
+.segunda-albuns{
+	padding: 0px 0px 0px 0px;
+}
+
+.terceiro{
+	float: right;
+	margin-top: 100px;
+	width: 851px;
+	margin-right: 277px;
+	margin-left: 500px;
+	color: white;
+}
+
+
+.arrumar{
+	padding: 100px 100px 0px 0px;
+}
+
+#prgf1{
+	font-size: 45px;
+	margin-bottom: 33px;
+	font-weight: bold;
+}
+
+#prgf2{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#prgf3{
+	font-size: 15px;
+	margin-bottom: 39px;
+}
+
+#prgf4{
+	font-size: 24px;
+	margin-bottom: 29px;
+}
+
+#prgf5{
+	font-size: 15px;
+	margin-bottom: 48px;
+}
+
+#prgf6{
+	font-size: 21px;
+	margin-bottom: 18px;
+}
+
+#prgf7{
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+
+#txt1{
+	font-size: 45px;
+	margin-bottom: 31px;
+	margin-top: -18px;
+	margin-left: 389px;
+
+}
+
+#txt2{
+	font-size: 25px;
+	margin-bottom: 21px;
+	margin-left: 389px;
+
+}
+
+#txt3{
+	margin-bottom: 35px;
+	font-size: 17px;
+	margin-left: 389px;
+}
